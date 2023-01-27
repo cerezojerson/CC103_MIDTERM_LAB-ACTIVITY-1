@@ -1,14 +1,7 @@
-public class GreatestNumber {
+public class TemperatureConverter {
     public static void main(String[] args) {
-        int a = 25;
-        int b = 78;
-        int c = 87;
-        if (a > b && a > c) {
-            System.out.println("The greatest number is " + a);
-        } else if (b > a && b > c) {
-            System.out.println("The greatest number is " + b);
-        } else {
-            System.out.println("The greatest number is " + c);
-        }
+        double fahrenheit = 212;
+        double celsius = (fahrenheit - 32) * 5 / 9;
+        System.out.println(fahrenheit + " degree Fahrenheit is equal to " + celsius + " in Celsius");
     }
 }
