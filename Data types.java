@@ -6,4 +6,3 @@ public class TemperatureConverter {
         System.out.println("Celsius: " + celsius);
     }
 }
-
